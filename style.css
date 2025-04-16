@@ -8,3 +8,78 @@ li {
     list-style: none;
 }
 /* Fim - Configuração geral */
+
+/* Início - Configuração header */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 40px 0px;
+    margin-bottom: 100px;
+}
+
+header ul {
+    display: flex;
+    width: 100%;
+    gap: 150px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+/* Fim - Configuração header */
+
+/* Início - Configuração section */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 75px;
+    gap: 10px;
+}
+
+section input {
+    display: flex;
+    width: 45%;
+}
+
+.calculadora {
+    margin: 5px auto;
+    padding: 10px;
+}
+
+.calculadora div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+section button {
+    flex: 10;
+    margin: 100;
+    border-radius: 100px;
+}
+
+
+/* Fim - Configuração section */
+
+/* Início - Configuração footer */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid black;
+    background-color: rgb(224, 224, 224);
+}
+/* Fim - Configuração footer */

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprimento</title>
+    <link rel="stylesheet" href="comprimento.css">
+</head>
+
+<body>
+    <header>
+        <h1>Conversão de Comprimentos</h1>
+        <p>Conversão de valores de varios tipos de medidas de Comprimento diferentes.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Comprimento</h2> <!--Deixar em uma cor diferente-->
+            <h3>Quero converter:</h3> <!--Faça um quadrado grande com bordas arredondadas para o usuario escolher o valor a ser calculado-->
+                <form>
+                    <input type="text" id="valor" name="comprimento" placeholder="Valor...">
+                </form>
+                <form>
+                    <label for="medidas">Escolha uma unidade:</label> <!--TIRAR ESSE ESCOLHA UMA UNIDADE-->
+                        <select id="medidas" name="medidas">
+                            <optgroup label="Métrico">
+                                <option value="km">Quilômetro (km)</option>
+                                <option value="m">Metro (m)</option>
+                                <option value="dm">Decímetro (dm)</option>
+                                <option value="cm">Centímetro (cm)</option>
+                                <option value="mm">Milímetro (mm)</option>
+                                <option value="um">Micrômetro (µm)</option>
+                                <option value="nm">Nanômetro (nm)</option>
+                                <option value="a">Ângstrom (Å)</option>
+                            </optgroup>
+
+                            <optgroup label="Britânico/Americano">
+                                <option value="liga">Liga</option>
+                                <option value="milha">Milha (mi)</option>
+                                <option value="furlong">Furlong</option>
+                                <option value="corrente">Corrente</option>
+                                <option value="barra">Barra (rd)</option>
+                                <option value="jarda">Jarda (yd)</option>
+                                <option value="pe">Pé (ft)</option>
+                                <option value="link">Link</option>
+                                <option value="polegada">Polegada (in)</option>
+                                <option value="linha">Linha</option>
+                                <option value="mil">Mil (mil)</option>
+                                <option value="thou">Thou (thou)</option>
+                            </optgroup>
+
+                            <optgroup label="Náutico">
+                                <option value="milha">Milha náutica</option>
+                                <option value="braça">Braça</option>
+                            </optgroup>
+
+                            <optgroup label="Astronômico">
+                                <option value="parsec">Parsec (pc)</option>
+                                <option value="anoluz">Ano-Luz</option>
+                                <option value="uniastronomica">Unidade astronômica</option>
+                                <option value="minutoluz">Minuto-Luz</option>
+                                <option value="segundluz">Segundo-Luz</option>
+                            </optgroup>
+                        </select>
+                </form>
+
+                        <section>
+                            <h3>Para:</h3>
+                            <form>
+                                <label for="medidas">Escolha uma unidade:</label> <!--TIRAR ESSE ESCOLHA UMA UNIDADE-->
+                                    <select id="medidas" name="medidas">
+                                        <optgroup label="Métrico">
+                                            <option value="km">Quilômetro (km)</option>
+                                            <option value="m">Metro (m)</option>
+                                            <option value="dm">Decímetro (dm)</option>
+                                            <option value="cm">Centímetro (cm)</option>
+                                            <option value="mm">Milímetro (mm)</option>
+                                            <option value="um">Micrômetro (µm)</option>
+                                            <option value="nm">Nanômetro (nm)</option>
+                                            <option value="a">Ângstrom (Å)</option>
+                                        </optgroup>
+            
+                                        <optgroup label="Britânico/Americano">
+                                            <option value="liga">Liga</option>
+                                            <option value="milha">Milha (mi)</option>
+                                            <option value="furlong">Furlong</option>
+                                            <option value="corrente">Corrente</option>
+                                            <option value="barra">Barra (rd)</option>
+                                            <option value="jarda">Jarda (yd)</option>
+                                            <option value="pe">Pé (ft)</option>
+                                            <option value="link">Link</option>
+                                            <option value="polegada">Polegada (in)</option>
+                                            <option value="linha">Linha</option>
+                                            <option value="mil">Mil (mil)</option>
+                                            <option value="thou">Thou (thou)</option>
+                                        </optgroup>
+            
+                                        <optgroup label="Náutico">
+                                            <option value="milha">Milha náutica</option>
+                                            <option value="braça">Braça</option>
+                                        </optgroup>
+            
+                                        <optgroup label="Astronômico">
+                                            <option value="parsec">Parsec (pc)</option>
+                                            <option value="anoluz">Ano-Luz</option>
+                                            <option value="uniastronomica">Unidade astronômica</option>
+                                            <option value="minutoluz">Minuto-Luz</option>
+                                            <option value="segundluz">Segundo-Luz</option>
+                                        </optgroup>
+                                    </select>
+                            </form>
+                        </section>
+                </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nome do site. Todos os direitos reservados.</p>
+        <p>&copy; Davi Mendoza e Matheus Moreira</p>
+    </footer>
+</body>
+
+</html>
